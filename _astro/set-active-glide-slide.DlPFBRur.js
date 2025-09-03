@@ -1,0 +1,1 @@
+const o="ACTIVE";function a(n,r){const i=r.querySelectorAll(".glide__slide"),d=n.settings.perView,e=d+Math.round(d/2),c=s=>i[s];n.on("run",()=>{const s=n.index+e,l=[s];s===e&&l.push(s+i.length-e*2),s===i.length-1-e&&l.push(e-1);for(let t=0;t<i.length;t++)l.includes(t)?c(t).classList.add(o):c(t).classList.remove(o)}),c(n.settings.startAt+e).classList.add(o)}export{a as s};

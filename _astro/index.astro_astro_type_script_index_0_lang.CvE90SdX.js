@@ -1,1 +1,0 @@
-import{G as t}from"./glide.esm.CEn_k2UQ.js";import{s as o}from"./set-active-glide-slide.4S1mAa2E.js";const e=document.querySelector(".glide"),i=new t(e,{type:"carousel",focusAt:"center",gap:100,perView:1,animationDuration:600,startAt:3,autoplay:4e3}).mount();o(i,e);
